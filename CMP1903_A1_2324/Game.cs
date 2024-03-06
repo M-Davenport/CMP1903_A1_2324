@@ -4,9 +4,10 @@ namespace CMP1903_A1_2324 //defines the namespace
 {
     internal class Game //declares the game class
     {
-        private Die die1 = new Die(); // Create the first die object
-        private Die die2 = new Die(); // Create the second die object
-        private Die die3 = new Die(); // Create the third die object
+        //declares and initialises private fields for each die
+        private Die die1 = new Die();
+        private Die die2 = new Die();
+        private Die die3 = new Die();
 
         public void PlayGame() //declares the PlayGame method
         {
