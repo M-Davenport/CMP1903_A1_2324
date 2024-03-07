@@ -14,7 +14,7 @@ namespace CMP1903_A1_2324 //defines the namespace
 
         public int Roll() //declares a method to roll the die
         {
-            FaceValue = random.Next(1, 7); //generates a random number between 1 and 6 and assigns it to the FaceValue property
+            FaceValue = random.Next(1, 7); //generates a random number between 1 and 6 (1-7 to allow it to include up to 6) and assigns it to the FaceValue property
             return FaceValue; //returns the rolled value
         }
       
